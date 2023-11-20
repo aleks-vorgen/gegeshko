@@ -16,6 +16,14 @@
         white-space: nowrap;
     }
 
+    .tree-left {
+        padding-right: 40px;
+    }
+
+    .tree-right {
+        padding-left: 40px;
+    }
+
     .tree-left div {
         display: flex;
         justify-content: right;
