@@ -4,15 +4,9 @@
 #home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     min-width: var(--default-min-width);
     padding: 40px 15vw;
-
-    & div {
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
 }
 
 

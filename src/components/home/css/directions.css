@@ -1,36 +1,49 @@
 .home-directions {
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .directions-tree {
+    display: flex;
     margin-top: 50px;
 
-    .tree-left, .tree-center, .tree-right {
+    .tree-left, .tree-right {
+        display: flex;
         flex-direction: column;
-        height: 100%;
         justify-content: space-between;
+        white-space: nowrap;
     }
 
     .tree-left div {
+        display: flex;
         justify-content: right;
-
+        align-items: center;
         & span {
-            margin-right: 50px;
+            text-align: right;
+            margin-right: 40px;
         }
     }
 
+    .tree-center {
+        justify-content: center;
+    }
+
     .tree-right div {
+        display: flex;
+        align-items: center;
         & span {
-            margin-left: 50px;
+            margin-left: 40px;
         }
     }
 
     .left-center {
-        margin-right: 60px;
+        padding-right: 60px;
     }
 
     .right-center {
-        margin-left: 60px;
+        padding-left: 60px;
     }
 
     & span {
