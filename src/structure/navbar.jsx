@@ -25,7 +25,7 @@ export function Navbar() {
                 <span className="nav-link-underline"/>
             </div>
             <div className="nav-button" ref={refAbout}>
-                <Link to="about"
+                <Link to="/about"
                    onMouseEnter={() => navButton_MouseIn(refAbout)}
                    onMouseOut={() => navButton_MouseOut(refAbout)}>
                     Про мене

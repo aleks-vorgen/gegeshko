@@ -61,7 +61,7 @@ export function Directions() {
                     </div>
                 </div>
                 <div className="tree-center">
-                    <img src="/home-logo.svg" alt="home-logo.svg"/>
+                    <img src="/images/home-logo.svg" alt="home-logo.svg"/>
                 </div>
                 <div className="tree-right">
                     <div ref={refDrugging}>

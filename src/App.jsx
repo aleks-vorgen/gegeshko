@@ -12,7 +12,7 @@ export default function App() {
             <Header/>
             <Navbar/>
             <Routes>
-                <Route path={"/"} element={<Home/>}></Route>
+                <Route path={"/gegeshko"} element={<Home/>}></Route>
                 <Route path={"/about"} element={<About/>}></Route>
             </Routes>
             <Footer/>

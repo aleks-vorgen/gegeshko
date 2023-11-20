@@ -2,7 +2,7 @@ export function Header() {
     return (
         <div id="header">
             <div className="header-logo">
-                <img src="/header-logo.svg" alt="logo"/>
+                <img src="/images/header-logo.svg" alt="logo"/>
                 <div className="logo-info">
                     <div className="logo-title">Гегешко</div>
                     <div className="logo-text">Лікар психіатр - нарколог</div>
