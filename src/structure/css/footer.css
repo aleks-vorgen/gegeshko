@@ -1,0 +1,38 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    min-width: var(--default-min-width);
+    padding: var(--default-side-padding);
+    background-color: var(--default-footer-bg-color);
+}
+
+.socials a {
+    margin: 0 5px;
+}
+
+.copyrights {
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@keyframes scale-down-center {
+    0% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}

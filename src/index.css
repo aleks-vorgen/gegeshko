@@ -1,0 +1,74 @@
+@import "structure/css/header.css";
+@import "structure/css/navbar.css";
+@import "structure/css/footer.css";
+@import "pages/css/home.css";
+@import "pages/css/about.css";
+
+:root {
+    --primary-font: Montserrat, sans-serif;
+    --header-logo-title-color: #121212;
+    --primary-color: #007F90 !important;
+    --header-title-color: #878787;
+    --header-text-color: black;
+    --default-side-padding: 0 15vw;
+    --default-min-width: 1300px;
+    --default-footer-bg-color: #4F4F4F;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: -apple-system, Montserrat, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    color: #121212;
+    background-color: #F8F8F8;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sub-title {
+    color: var(--primary-color);
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    .side-line {
+        height: 1px;
+        background-color: var(--primary-color);
+    }
+}

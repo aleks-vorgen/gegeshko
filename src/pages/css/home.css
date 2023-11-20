@@ -1,0 +1,18 @@
+@import "/src/components/home/css/directions.css";
+@import "/src/components/home/css/preregistration-form.css";
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: var(--default-min-width);
+    padding: 40px 15vw;
+
+    & div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
