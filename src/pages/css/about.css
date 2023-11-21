@@ -1,6 +1,5 @@
 #about {
     display: flex;
     align-items: center;
-    min-width: var(--default-min-width);
     padding: var(--default-side-padding);
 }

@@ -20,22 +20,22 @@ export function Footer() {
         <div id="footer">
             <div className="socials">
                 <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refFacebook}>
-                    <img src="/images/socials/facebook.svg" alt="facebook.svg"
+                    <img src="/images/socials/footer/facebook.svg" alt="facebook.svg"
                          onMouseEnter={() => social_MouseIn(refFacebook)}
                          onMouseOut={() => social_MouseOut(refFacebook)}/>
                 </a>
                 <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refTelegram}>
-                    <img src="/images/socials/telegram.svg" alt="telegram.svg"
+                    <img src="/images/socials/footer/telegram.svg" alt="telegram.svg"
                          onMouseEnter={() => social_MouseIn(refTelegram)}
                          onMouseOut={() => social_MouseOut(refTelegram)}/>
                 </a>
                 <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refWhatsapp}>
-                    <img src="/images/socials/whatsapp.svg" alt="whatsapp.svg"
+                    <img src="/images/socials/footer/whatsapp.svg" alt="whatsapp.svg"
                          onMouseEnter={() => social_MouseIn(refWhatsapp)}
                          onMouseOut={() => social_MouseOut(refWhatsapp)}/>
                 </a>
                 <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refViber}>
-                    <img src="/images/socials/viber.svg" alt="viber.svg"
+                    <img src="/images/socials/footer/viber.svg" alt="viber.svg"
                          onMouseEnter={() => social_MouseIn(refViber)}
                          onMouseOut={() => social_MouseOut(refViber)}/>
                 </a>

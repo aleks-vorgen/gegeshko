@@ -1,5 +1,7 @@
 import {Directions} from "../components/home/directions.jsx";
 import {PreregistrationForm} from "../components/home/preregistration-form.jsx";
+import {Biography} from "../components/home/biography.jsx";
+import {Contacts} from "../components/home/contacts.jsx";
 
 export function Home() {
 
@@ -7,12 +9,8 @@ export function Home() {
         <div id="home">
             <Directions/>
             <PreregistrationForm/>
-            <div className="home-bio">
-
-            </div>
-            <div className="home-contacts">
-
-            </div>
+            <Biography/>
+            <Contacts/>
             <div className="home-experience">
 
             </div>

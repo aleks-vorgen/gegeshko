@@ -1,5 +1,7 @@
 @import "/src/components/home/css/directions.css";
 @import "/src/components/home/css/preregistration-form.css";
+@import "/src/components/home/css/biography.css";
+@import "/src/components/home/css/contacts.css";
 
 #home {
     display: flex;
