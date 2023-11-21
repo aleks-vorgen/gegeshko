@@ -1,0 +1,16 @@
+.home-bio {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    padding: 40px 15vw;
+
+    .bio {
+        width: 50%;
+    }
+
+    .image {
+        text-align: center;
+        width: 50%;
+    }
+}
