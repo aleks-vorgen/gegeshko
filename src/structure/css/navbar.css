@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     height: 60px;
-    min-width: var(--default-min-width);
     padding: var(--default-side-padding);
     background-color: var(--primary-color);
 }
