@@ -1,0 +1,91 @@
+.home-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px 15vw;
+
+    .sub-title {
+        .title {
+            color: var(--primary-color);
+        }
+        .side-line {
+            background-color: var(--primary-color);
+        }
+    }
+
+    .content {
+        display: flex;
+        margin-top: 40px;
+
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    }
+
+    .image {
+        padding: 0 40px;
+    }
+
+    .preregistration-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        white-space: nowrap;
+
+        & div {
+            text-align: center;
+        }
+
+        & form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & input, & button {
+            border: none;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        & input {
+            background: #D2D2D2;
+            color: #424242;
+        }
+
+        & button {
+            background-color: #C9884B;
+            color: white;
+        }
+    }
+
+    .divider {
+        width: 1px;
+        background-color: var(--primary-color);
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+
+        .phone-number, .email {
+            color: #878787;
+            font-size: 16px;
+            padding: 20px 0;
+        }
+
+        .socials {
+            margin-top: 20px;
+
+            & img {
+                margin: 0 5px;
+            }
+        }
+    }
+}
