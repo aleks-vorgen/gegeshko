@@ -2,7 +2,17 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 40px 15vw;
     width: 100%;
+
+    .sub-title {
+        .title {
+            color: var(--primary-color);
+        }
+        .side-line {
+            background-color: var(--primary-color);
+        }
+    }
 }
 
 .directions-tree {
