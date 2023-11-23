@@ -19,22 +19,26 @@ export function Footer() {
     return (
         <div id="footer">
             <div className="socials">
-                <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refFacebook}>
+                <a href="https://www.facebook.com/profile.php?id=61552555611669"
+                   target="_blank" rel="noreferrer" ref={refFacebook}>
                     <img src="/images/socials/footer/facebook.svg" alt="facebook.svg"
                          onMouseEnter={() => social_MouseIn(refFacebook)}
                          onMouseOut={() => social_MouseOut(refFacebook)}/>
                 </a>
-                <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refTelegram}>
+                <a href=""
+                   target="_blank" rel="noreferrer" ref={refTelegram}>
                     <img src="/images/socials/footer/telegram.svg" alt="telegram.svg"
                          onMouseEnter={() => social_MouseIn(refTelegram)}
                          onMouseOut={() => social_MouseOut(refTelegram)}/>
                 </a>
-                <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refWhatsapp}>
+                <a href="https://wa.me/3800506287550"
+                   target="_blank" rel="noreferrer" ref={refWhatsapp}>
                     <img src="/images/socials/footer/whatsapp.svg" alt="whatsapp.svg"
                          onMouseEnter={() => social_MouseIn(refWhatsapp)}
                          onMouseOut={() => social_MouseOut(refWhatsapp)}/>
                 </a>
-                <a href={"https:/google.com"} target={"_blank"} rel="noreferrer" ref={refViber}>
+                <a href="viber://chat?number=%2B0506287550"
+                   target="_blank" rel="noreferrer" ref={refViber}>
                     <img src="/images/socials/footer/viber.svg" alt="viber.svg"
                          onMouseEnter={() => social_MouseIn(refViber)}
                          onMouseOut={() => social_MouseOut(refViber)}/>

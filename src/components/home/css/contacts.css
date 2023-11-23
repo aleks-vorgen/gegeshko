@@ -19,7 +19,7 @@
         margin-top: 40px;
 
         .title {
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             text-transform: uppercase;
             margin-bottom: 20px;
@@ -27,13 +27,13 @@
     }
 
     .image {
-        padding: 0 40px;
+        padding: 0 60px;
     }
 
     .preregistration-form {
         display: flex;
         flex-direction: column;
-        padding: 0 40px;
+        padding: 0 60px;
         white-space: nowrap;
 
         & div {
@@ -72,18 +72,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 40px;
+        padding: 0 60px;
 
         .phone-number, .email {
             color: #878787;
             font-size: 16px;
-            padding: 20px 0;
+            margin-top: 15px;
         }
 
         .socials {
             margin-top: 20px;
 
-            & img {
+            & a {
                 margin: 0 5px;
             }
         }

@@ -13,8 +13,8 @@ export function PreregistrationForm() {
                 а також запишуть на прийом
             </div>
             <form action="" className="preregistration-form">
-                <input type="text" placeholder="Ваше ім'я"/>
-                <input type="text" placeholder="Контактний телефон"/>
+                <input type="text" placeholder="Ваше ім'я" name="name"/>
+                <input type="text" placeholder="Контактний телефон" name="phone"/>
                 <button>Передзвонити мені</button>
             </form>
         </div>
