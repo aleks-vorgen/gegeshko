@@ -47,7 +47,7 @@ export function Contacts() {
                                  onMouseEnter={() => social_MouseIn(refFacebook)}
                                  onMouseOut={() => social_MouseOut(refFacebook)}/>
                         </a>
-                        <a href=""
+                        <a href="https://t.me/VitaliyVasilevi"
                            target="_blank" rel="noreferrer" ref={refTelegram}>
                             <img src="/images/socials/telegram.svg" alt="telegram.svg"
                                  onMouseEnter={() => social_MouseIn(refTelegram)}

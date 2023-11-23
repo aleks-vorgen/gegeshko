@@ -25,7 +25,7 @@ export function Footer() {
                          onMouseEnter={() => social_MouseIn(refFacebook)}
                          onMouseOut={() => social_MouseOut(refFacebook)}/>
                 </a>
-                <a href=""
+                <a href="https://t.me/VitaliyVasilevi"
                    target="_blank" rel="noreferrer" ref={refTelegram}>
                     <img src="/images/socials/footer/telegram.svg" alt="telegram.svg"
                          onMouseEnter={() => social_MouseIn(refTelegram)}
