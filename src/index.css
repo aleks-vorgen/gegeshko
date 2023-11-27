@@ -42,6 +42,10 @@ body {
     background-color: var(--primary-reversed-color);
 }
 
+input {
+    outline: none;
+}
+
 button {
     cursor: pointer;
 }
