@@ -9,10 +9,15 @@
         width: 60%;
         font-size: 22px;
         text-transform: capitalize;
+        padding-right: 40px;
     }
 
     .image {
         text-align: center;
         width: 40%;
+
+        & img {
+            width: 100%;
+        }
     }
 }

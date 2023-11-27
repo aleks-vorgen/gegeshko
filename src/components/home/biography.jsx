@@ -11,7 +11,7 @@ export function Biography() {
                 culpa qui officia deserunt mollit anim id est laborum.
             </div>
             <div className="image">
-                <img src="/images/home-logo.svg" alt=""/>
+                <img src="/images/profile-horizontal.png" alt=""/>
             </div>
         </div>
     )
