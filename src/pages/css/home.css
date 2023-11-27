@@ -3,6 +3,7 @@
 @import "/src/components/home/css/biography.css";
 @import "/src/components/home/css/contacts.css";
 @import "/src/components/home/css/achievements.css";
+@import "/src/components/home/css/footer.css";
 
 #home {
     display: flex;

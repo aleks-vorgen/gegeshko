@@ -1,0 +1,26 @@
+.home-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 60px 15vw;
+
+    .title {
+        font-size:24px;
+        font-weight: 600;
+        padding: 20px 0 10px 0;
+    }
+
+    .under-title {
+        color: var(--header-title-color);
+        padding: 10px 0;
+    }
+
+    .title-underline {
+        width: 70%;
+        margin: 0 auto;
+        height: 2px;
+        background-color: var(--primary-color);
+    }
+}
