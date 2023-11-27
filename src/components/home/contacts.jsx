@@ -24,8 +24,8 @@ export function Contacts() {
                 <div className="side-line"></div>
             </div>
             <div className="content">
-                <div className="image">
-                    <img src="/images/home-logo.svg" alt=""/>
+                <div className="profile">
+                    <img src="/images/profile-vertical.png" alt=""/>
                 </div>
                 <div className="preregistration-form">
                     <div className="title">Попередній запис</div>

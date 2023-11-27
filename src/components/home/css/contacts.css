@@ -9,6 +9,7 @@
         .title {
             color: var(--primary-color);
         }
+
         .side-line {
             background-color: var(--primary-color);
         }
@@ -16,24 +17,28 @@
 
     .content {
         display: flex;
+        justify-content: space-between;
         margin-top: 40px;
+
+        .profile {
+            width: 30%;
+
+            & img {
+                width: 100%;
+            }
+        }
 
         .title {
             font-size: 24px;
             font-weight: 600;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
-    }
-
-    .image {
-        padding: 0 60px;
     }
 
     .preregistration-form {
         display: flex;
         flex-direction: column;
-        padding: 0 60px;
         white-space: nowrap;
 
         & div {
@@ -43,13 +48,14 @@
         & form {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
         }
 
         & input, & button {
             border: none;
             padding: 20px;
             border-radius: 10px;
-            margin: 20px 0;
         }
 
         & input {
@@ -58,6 +64,7 @@
         }
 
         & button {
+            bottom: 0;
             background-color: #C9884B;
             color: white;
         }
@@ -72,12 +79,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 60px;
 
         .phone-number, .email {
             color: #878787;
             font-size: 16px;
-            margin-top: 15px;
+            margin-bottom: 20px;
         }
 
         .socials {
