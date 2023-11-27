@@ -1,0 +1,16 @@
+.home-achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 60px 15vw;
+    background-color: var(--primary-color);
+    color: white;
+
+    .title {
+        font-size:24px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+}
