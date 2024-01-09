@@ -1,5 +1,7 @@
+@import "/src/components/about/css/main-description.css";
+
 #about {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: var(--default-side-padding);
 }

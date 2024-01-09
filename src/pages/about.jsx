@@ -1,7 +1,7 @@
+import {MainDescription} from "../components/about/main-description.jsx";
+
 export function About() {
     return (
-        <div id="about">
-            About page
-        </div>
+        <MainDescription/>
     )
 }
