@@ -21,19 +21,22 @@
         justify-content: center;
         margin-top: 50px;
 
-        & input, & button {
+        input, button {
             border: none;
             padding: 20px;
             border-radius: 10px;
             margin: 0 20px;
+            color: #424242;
+            font-size: 12px;
         }
 
-        & input {
+        input {
             background: var(--primary-reversed-color);
             color: #424242;
+            width: 17%;
         }
 
-        & button {
+        button {
             background-color: #C9884B;
             color: white;
         }

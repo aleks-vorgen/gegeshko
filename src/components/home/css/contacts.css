@@ -56,17 +56,23 @@
             border: none;
             padding: 20px;
             border-radius: 10px;
+            color: #424242;
+            font-size: 12px;
         }
 
         & input {
-            background: #D2D2D2;
             color: #424242;
+            font-size: 12px;
+            background: #D2D2D2;
         }
 
         & button {
             bottom: 0;
             background-color: #C9884B;
             color: white;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
         }
     }
 
@@ -87,6 +93,7 @@
         }
 
         .socials {
+            display: flex;
             margin-top: 20px;
 
             & a {

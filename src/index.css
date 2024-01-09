@@ -3,6 +3,9 @@
 @import "structure/css/footer.css";
 @import "pages/css/home.css";
 @import "pages/css/about.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     --primary-font: Montserrat, sans-serif;
